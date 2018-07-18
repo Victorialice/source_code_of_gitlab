@@ -1,0 +1,2 @@
+class MergeRequestPolicy < IssuablePolicy
+end

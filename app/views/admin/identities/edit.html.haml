@@ -1,0 +1,6 @@
+- page_title _("Edit"), @identity.provider, _("Identities"), @user.name, _("Users")
+%h3.page-title
+  = _('Edit identity for %{user_name}') % { user_name: @user.name }
+%hr
+
+= render 'form'
